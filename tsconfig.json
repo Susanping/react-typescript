@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "sourceMap": true,
+    "strict": true,                           
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "target": "es5",                       
+    "module": "commonjs",   
+    "esModuleInterop": true,
+    "paths": {
+      "@/*":[
+        "src/*"
+      ]
+    }                 
+},
+  "include":[ //编译的目录
+    "./src/**/*"
+  ]
+}
